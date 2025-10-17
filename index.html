@@ -94,11 +94,11 @@
         background:#fff; 
         padding:12px; 
         border-radius:12px;
-        opacity: 0; /* ✨ Start with invisible for fade-in effect */
-        transition: opacity 0.5s ease; /* ✨ Smooth transition */
+        opacity: 0;
+        transition: opacity 0.5s ease; 
     }
     #qrcode.loaded {
-        opacity: 1; /* ✨ Make it visible */
+        opacity: 1; 
     }
     .msg {margin-top:14px; padding:12px 14px; border-radius:12px; font-size:14px; display:none;}
     .msg.ok {background:rgba(48,209,88,.12); border:1px solid rgba(48,209,88,.35); color:#a8f0b9;}
@@ -108,7 +108,7 @@
     .foot {display:flex; align-items:center; justify-content:space-between; gap:12px; padding:22px 0; color:var(--muted); font-size:14px; flex-wrap: wrap;}
     .foot a {color:var(--muted); text-decoration:none;}
     .foot a:hover {color:var(--text);}
-    /* Added for new inputs */
+    
     .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   </style>
 </head>
@@ -346,3 +346,4 @@
   </script>
 </body>
 </html>
+
